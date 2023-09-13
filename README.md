@@ -24,12 +24,12 @@
 <p><strong>Machine Learning Analysis and Findings:</strong></p>
 <p>In the upcoming analysis, I will conduct a comparison among four distinct regression models: Vanilla, Lasso, Ridge, and ElasticNet. The primary focus will be on assessing their accuracy in predicting Diamond prices. To achieve robust modeling, I'll employ various techniques including standard scaling, polynomial effects, regularization regression, cross- validation, and grid search. I'll also evaluate model performance using metrics such as RMS and R2 Score.</p>
 
-<p><strong>Model Flaws and Strength and Advanced steps::</strong></p>
+<p><strong>Model Flaws and Strength and Advanced steps:</strong></p>
 <p>In terms of simplicity, it's worth noting that vanilla linear regression delivered respectable predictive results, although not the absolute best. It stands out as the simplest and fastest model in terms of parameters. On the other hand, models like Lasso, Ridge, and ElasticNet yielded higher results in accuracy, but they introduced complexity and slowed down the training process, particularly when employing grid search to fine-tune parameters. This presents a tradeoff scenario: for larger datasets, these more complex models may offer superior performance, albeit with longer training times, whereas opting for the vanilla model might involve a slight accuracy sacrifice but significantly faster training.</p>
 
 <p>In terms of the best model, LassoCV comes with the highest R2 score and we can't ignore that despite its training process is slow.</p>
 
-<p><strong>Advanced steps::</strong></p>
+<p><strong>Advanced steps:</strong></p>
 <p>To boost the model's effectiveness, we utilize regularization techniques such as L1 (Lasso) and L2 (Ridge) to manage overfitting and stabilize coefficients. Furthermore, the inclusion of k-fold cross-validation assists in evaluating the model's resilience and fine-tuning hyperparameters, ensuring its ability to generalize effectively across various data subsets. These methods together result in heightened model accuracy and dependability in regression applications.</p>
 <p>For more insight on this project 'Diamond Price Prediction,' please check <a href='https://github.com/Izuchukwu234/Diamond-Price-Prediction/blob/main/Diamond%20Price%20Analysis.pdf'>here</a></p>
 </div>
